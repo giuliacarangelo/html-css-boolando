@@ -39,6 +39,10 @@ header{
     padding: 0.5 0;
 }
 
+main{
+    padding-bottom: 50px;
+}
+
 .product-image{
     width: 400px;
     height: 550px;
@@ -86,13 +90,75 @@ div.products-shop .center-justify{
     padding: 0.4rem 0.8rem;
 }
 
+.green-tag{
+    position: absolute;
+    top: -7px;
+    font-weight: 700;
+    background-color: #008000;
+    color: white;
+    padding: 0.4rem 0.8rem;
+}
+
 .product-card{
     position: relative;
     margin: 0.5rem 0.5rem;
+    width: calc((100% / 3) - 1rem);
 }
 
 .badge{
     position: absolute;
     left: 0;
     bottom: 80px;
+}
+
+.special {
+    position: absolute;
+    top: 507px;
+    right: 480px;
+}
+
+.favorites-icon{
+    position: absolute;
+    left: 360px;
+    top: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 2.5rem;
+}
+
+.hover-image{
+    position: absolute;
+    right: 200px;
+    width: 400px;
+    height: 550px;
+    display: none;
+    z-index: 2;
+}
+
+.hover-image:hover{
+    display: inline;
+}
+
+/* .favorites-icon:hover{
+    color: red;
+} */
+
+footer{
+    height: 60px;
+    margin: 0 auto;
+    padding: 1.5rem ;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts,
+.social-icons{
+    justify-content: space-around;
 }
