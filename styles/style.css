@@ -14,12 +14,18 @@ body{
     align-items: center;
 }
 
+.center-justify{
+    display: flex;
+    justify-content: center;
+}
+
 header{
     height: 60px;
     background-color: #ff6900;
     color: white;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .sections-menu{
@@ -31,4 +37,44 @@ header{
 .main-logo{
     height: 30px;
     padding: 0.5 0;
+}
+
+.product-image{
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+    padding-right: 0 0.2rem;
+}
+
+.products-shop{
+    margin: 0 auto;
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.products-shop .center-justify{
+    margin: 0 auto;
+    
+}
+
+.article-brand{
+    font-weight: 100;
+}
+
+.uppercase-text{
+    text-transform: uppercase;
+}
+
+.article-name{
+    font-weight: 700;
+}
+
+.price{
+    color: red;
+    font-weight: 900;
+}
+
+.discount{
+    text-decoration: line-through;
 }
